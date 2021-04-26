@@ -2,6 +2,11 @@
  * Your custom CSS file
  *************************************************************************/
 
+#headshot {
+  width: 180px;
+  border-radius: 50%;
+}
+
 .custom-dropdown {
   width: 240px;
 }
