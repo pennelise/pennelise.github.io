@@ -8,7 +8,7 @@
 
 .footer{ 
    position: fixed;     
-   text-align: center;    
+   text-align: flex-start;    
    bottom: 0px; 
    width: 100%;
 }  
