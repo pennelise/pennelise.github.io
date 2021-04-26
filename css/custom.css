@@ -6,6 +6,13 @@
   width: 240px;
 }
 
+.footer{ 
+   position: fixed;     
+   text-align: center;    
+   bottom: 0px; 
+   width: 100%;
+}  
+
 .custom-dropdown {
   width: 240px;
 }
