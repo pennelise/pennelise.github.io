@@ -140,7 +140,7 @@ hr {
   transition: opacity 0.1s ease-in-out;
   -moz-transition: opacity 0.1s ease-in-out;
   -webkit-transition: opacity 0.1s ease-in-out;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Merriweather', Helvetica, Arial, sans-serif;
   white-space: nowrap;
 }
 
