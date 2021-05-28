@@ -60,12 +60,18 @@
               </div>
               <div class="flex-row"> 
                 <p class = "text max-width-400"> 
-                Come back to see more soon! 
+                Nitrogen oxides (NO<sub>x</sub> = NO + NO<sub>2</sub>) are precursor emissions which promote formation of air pollutants including ozone and nitrate aerosols. 
+NOx photolyzes in the sunlight, and as a result has a strong daily cycle, with a peak in the morning and a minimum in the late afternoon. 
+Nitrogen oxides are observed at the surface by the sparse network of EPA AQS monitors, and NO<sub>2</sub> in particular is observed remotely by satellite instruments including OMI, TROPOMI, and GOME-2. 
+The current polar-orbiting satellite instruments can only measure at a single time over each location. For example, many satellites measure at only 1pm local time, near the minimum of NO<sub>2</sub> concentrations. 
+                </p>
+                <p>
+                We used satellite observations from two instruments with different overpasses, GOME-2 (at ~(:30am) and OMI (at ~1pm local time) to assess. We found that satellite observations show evidence of higher NO<sub>2</sub> in the morning near large urban areas, but further analysis of urban/suburban interactions is limited by resoluton constraints.  
                 </p>
               </div>
               <div class="flex-item flex-row">
                 <img class="image" src="img/penn_holloway_california_figure.png">
-                <p class="image-caption">Image Caption</p> 
+                <p class="image-caption">Case study of GOME-2 (overpass ∼09:30) compared with down-scaled OMI (overpass ∼13:45) over Southern California on 14 June 2007. The outline of the boxes represents the boundaries of the GOME-2 pixels and box colors represent the difference GOME-2 minus down-scaled OMI. Dots represent the locations of EPA AQS monitors, and dot colors indicate the change in NO<sub>2</sub> between 09:00–11:00 and 12:00–14:00. For both AQS monitors and satellite pixels, red colors indicate higher concentrations of NO<sub>2</sub> in the morning, and blue colors indicate higher concentrations of NO<sub>2</sub> in the afternoon.</p> 
               </div>
             </div>
   <!-- ...end NOx Project -->
@@ -77,8 +83,9 @@
               <div class="flex-row"> 
                 <p class = "text"> 
                 <a href='https://nelson.wisc.edu/sage/data-and-models/software.php'>WHIPS</a> is an open-source Python package which regrids level-2 satellite data (irregular overlapping polygons) to level-3 data (gridded data). It supports a number of satellite products including NASA OMI NO<sub>2</sub> and MOPPIT CO. I added a new regridding function based on the OMNO2d gridding algorithm, and the ability to read in KNMI GOME-2 NO<sub>2</sub> data. 
-                <br />
-                <a href='https://github.com/WHIPS-team/WHIPS3'>Link to the WHIPS github.</a> 
+                <p>
+                <a href='https://github.com/WHIPS-team/WHIPS3'>Link to the WHIPS github.</a>
+                </p> 
                 </p>
               </div>
             </div>
@@ -91,17 +98,17 @@
               <div class="flex-row">
               <div class="flex-column"> 
                 <p class = "text">
-                Wind farm operators need to predict their power production 24 hours in advance so that they can submit accurate predictions to the grid operators. However, these predictions are imperfect, and the wind industry loses over $300 million each year to inaccurate power forecasts. Wind turbine power production depends in part on the amount of wind shear and turbulence in the surrounding atmosphere. However, these effects are not well understood and can be highly dependent on local conditions. We used a random forest model to incorporate shear and turbulence, as well as local information like altitude, to predict power production at a wind farm. We found that the new model, which incorporated more localized atmospheric information, outperformed the standard industry wind curve.  
+                Wind farm operators need to predict their power production 24 hours in advance so that they can submit accurate predictions to the grid operators. These predictions are imperfect, and the wind industry loses over $300 million each year to inaccurate power forecasts. Wind turbine power production depends in part on the amount of wind shear and turbulence in the surrounding atmosphere. However, these effects are not well understood and can be highly dependent on local conditions. We used a random forest model to incorporate shear and turbulence, as well as local information like altitude, to predict power production at a wind farm. We found that the new model, which incorporated more localized atmospheric information, outperformed the standard industry wind curve.  
                 </p>
                 <p class = "text"> 
-                Penn, E. and Newman, J. A New Toolbox for Operational Wind Data. (2017) Presentation. American Meteorological Society Annual Meeting 2017. Seattle, WA.<a href='https://ams.confex.com/ams/97Annual/videogateway.cgi/id/37671?recordingid=37671&uniqueid=Paper315015&entry_password=386098'>Link</a>
+                Penn, E. and Newman, J. <i>A New Toolbox for Operational Wind Data.</i> (2017) Presentation. American Meteorological Society Annual Meeting 2017. Seattle, WA. <a href='https://ams.confex.com/ams/97Annual/videogateway.cgi/id/37671?recordingid=37671&uniqueid=Paper315015&entry_password=386098'>Link</a>
                 </p>
-              </div>
               </div>
               <div class="flex-item flex-column">
                 <img class="image max-width-400" src="img/wind_field.jpg">
                 <p class="image-caption max-width-400">Image Caption</p>
               </div> 
+              </div>
             </div>
   <!-- ...end SULI -->
 
