@@ -46,18 +46,24 @@
   <!--Satellite Operators-->
             <div class="flex-row">
               <div class="flex-row full-width"> 
-              <h3>Writing a mass-conserving vertical interpolation for satellites.</h2>
+              <h3>GOOPy: mass-conserving vertical interpolation for satellites</h2>
               </div>
               <div class="flex-row">
                 <div class="flex-row flex-item-stretch">
                 <p class = "text">
-                Interpolating between vertical grids is a problem which comes up constantly in comparing satellite observations with model simulations. We usually want this interpolation to be mass-conserving, which means that simple solutions (such as using np.interp) are not suitable.  
+                <a href="https://github.com/pennelise/GOOPy">GOOPy (General Observation Operator in Python)</a> facilitates comparisons of model and satellite data by sampling the GEOS-Chem model atmosphere in the same manner as satellite observations sample the real atmosphere. 
+                </p>
+                <p class = "text">
+                The main advantage of GOOPy is that it includes class for mass-conserving vertical interpolation between model and satellite levels. Interpolating between vertical grids is a problem which comes up constantly in comparing satellite observations with model simulations. We usually want this interpolation to be mass-conserving, which means that simple solutions (such as using np.interp) are not suitable.  
                 </p>
                 <p class='text'>
-                We are writing a mass-conserving interpolation function for use with GEOS-Chem output. We will also offer an option to add custom satellite operators on top of this interpolation to facilitate easy comparisons between satellite and model data. 
+                We also offer an option to add custom satellite operators on top of this interpolation to facilitate easy comparisons between satellite and model data. 
                 </p>
                 <p class='text'>
                 (This project is equally authored with Hannah Nesser.)
+                </p>
+                <p class='text'>
+                <a href="https://github.com/pennelise/GOOPy">Link to GitHub</a>
                 </p>
                 </div>
               </div>
@@ -146,7 +152,7 @@ The current polar-orbiting satellite instruments can only measure at a single ti
               </div>
               <div class="flex-row"> 
                 <p class = "text"> 
-                <a href='https://nelson.wisc.edu/sage/data-and-models/software.php'>WHIPS</a> is an open-source Python package which regrids level-2 satellite data (irregular overlapping polygons) to level-3 data (gridded data). It supports a number of satellite products including NASA OMI NO<sub>2</sub> and MOPPIT CO. I added a new regridding function based on the OMNO2d gridding algorithm, and the ability to read in KNMI GOME-2 NO<sub>2</sub> data. 
+                <a href='https://sage.nelson.wisc.edu/data-and-models/wisconsin-horizontal-interpolation-program-for-satellites-whips/'>WHIPS</a> is an open-source Python package which regrids level-2 satellite data (irregular overlapping polygons) to level-3 data (gridded data). It supports a number of satellite products including NASA OMI NO<sub>2</sub> and MOPPIT CO. I added a new regridding function based on the OMNO2d gridding algorithm, and the ability to read in KNMI GOME-2 NO<sub>2</sub> data. 
                 <p>
                 <span class="highlight-text">Github: </span><a href='https://github.com/WHIPS-team/WHIPS3'>Link to the WHIPS github.</a>
                 </p> 
