@@ -2,14 +2,11 @@
 <html>
 
 <head>
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-M1D12FNZS2"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-M1D12FNZS2');
   </script>
   
@@ -38,107 +35,71 @@
     <div class="content">
       <div class="content-table flex-column">
 
-<!-- Open-source tools -->
         <div class="flex-row">
           <div class="flex-item flex-column">
-<!--Satellite Operators-->
+            
             <div class="flex-row">
-              <div class="flex-column full-width"> <!-- ensure underline spans whole width of page -->
-                <h2 class="add-top-margin">GOOPy: mass-conserving vertical interpolation for satellites</h2>
-                <hr> <!-- underline -->
-              </div>
+              <div class="flex-column full-width"> <h2 class="add-top-margin">GOOPy: mass-conserving vertical interpolation for satellites</h2>
+                <hr> </div>
               <div class="flex-row">
                 <div class="flex-row flex-item-stretch">
-                <p class = "text">
-                <a href="https://github.com/pennelise/GOOPy" target="_blank" rel="noopener noreferrer">GOOPy (General Observation Operator in Python)</a> facilitates comparisons of model and satellite data by sampling the GEOS-Chem model atmosphere in the same manner as satellite observations sample the real atmosphere. 
-                </p>
-                <p class = "text">
-                A major advantage of GOOPy is that it includes a class for mass-conserving vertical interpolation between model and satellite levels. Interpolating between vertical grids is a problem which comes up constantly in comparing satellite observations with model simulations. We usually want this interpolation to be mass-conserving, which means that simple solutions (such as using np.interp) are not suitable.  
-                </p>
-                <p class='text'>
-                We also offer an option to add custom satellite operators on top of this interpolation to facilitate easy comparisons between satellite and model data. 
-                </p>
-                <p class='text'>
-                (This project is equally authored with Hannah Nesser.) 
-                </p>
+                  <p class="text">
+                    <a href="https://github.com/pennelise/GOOPy" target="_blank" rel="noopener noreferrer">GOOPy (General Observation Operator in Python)</a> facilitates comparisons of model and satellite data by sampling the GEOS-Chem model atmosphere in the same manner as satellite observations sample the real atmosphere. 
+                  </p>
+                  <p class="text">
+                    A major advantage of GOOPy is that it includes a class for mass-conserving vertical interpolation between model and satellite levels. Interpolating between vertical grids is a problem which comes up constantly in comparing satellite observations with model simulations. We usually want this interpolation to be mass-conserving, which means that simple solutions (such as using np.interp) are not suitable.  
+                  </p>
+                  <p class='text'>
+                    We also offer an option to add custom satellite operators on top of this interpolation to facilitate easy comparisons between satellite and model data. 
+                  </p>
+                  <p class='text'>
+                    (This project is equally authored with Hannah Nesser.) 
+                  </p>
                 </div>
                 <div class="flex-row flex-item flex-item-stretch max-width-450">
-                <img class="image" src="img/GOOPy.png">
-                <p class="image-caption">Illustration of the first step of GOOPy's mass-conserving interpolation between a model profile (GEOS-Chem) and a satellite profile (GOSAT).</p>
+                  <img class="image" src="img/GOOPy.png">
+                  <p class="image-caption">Illustration of the first step of GOOPy's mass-conserving interpolation between a model profile (GEOS-Chem) and a satellite profile (GOSAT).</p>
                 </div>
               </div>
             </div>
-  <!-- ...end Satellite Operators -->
-
-  <!-- WHIPS -->
             <div class="flex-row">
-              <div class="flex-column full-width"> <!-- ensure underline spans whole width of page -->
-                <h2 class="add-top-margin">Contributions to Wisconsin Horizontal Interpolation Program for Satellites (WHIPS)</h2>
-                <hr> <!-- underline -->
-              </div>
+              <div class="flex-column full-width"> <h2 class="add-top-margin">Contributions to Wisconsin Horizontal Interpolation Program for Satellites (WHIPS)</h2>
+                <hr> </div>
               <div class="flex-row"> 
-                <p class = "text"> 
-                <a href='https://sage.nelson.wisc.edu/data-and-models/wisconsin-horizontal-interpolation-program-for-satellites-whips/' target="_blank" rel="noopener noreferrer">WHIPS</a> is an open-source Python package which regrids level-2 satellite data (irregular overlapping polygons) to level-3 data (gridded data). It supports a number of satellite products including NASA OMI NO<sub>2</sub> and MOPPIT CO. I added a new regridding function based on the OMNO2d gridding algorithm, and the ability to read in KNMI GOME-2 NO<sub>2</sub> data. 
+                <p class="text"> 
+                  <a href='https://sage.nelson.wisc.edu/data-and-models/wisconsin-horizontal-interpolation-program-for-satellites-whips/' target="_blank" rel="noopener noreferrer">WHIPS</a> is an open-source Python package which regrids level-2 satellite data (irregular overlapping polygons) to level-3 data (gridded data). It supports a number of satellite products including NASA OMI NO<sub>2</sub> and MOPPIT CO. I added a new regridding function based on the OMNO2d gridding algorithm, and the ability to read in KNMI GOME-2 NO<sub>2</sub> data. 
                 </p>
               </div>
             </div>
-  <!-- ...end WHIPS -->
-
-<!-- UNPUBLISHED WORK -->
-        <div class="flex-row">
+            </div> </div> <div class="flex-row">
           <div class="flex-item flex-column"> 
-            <h2 class="add-top-margin">Unpublished Work</h1>
-            <hr> <!-- underline -->
-  <!-- Hollings Project -->
-             <div class="flex-row">
+            <h2 class="add-top-margin">Unpublished Work</h2> <hr> <div class="flex-row">
               <div class="flex-row full-width"> 
                 <h3>Evaluating GFDL AM-4 simulations of NO<sub>2</sub> with OMI satellite observations</h3>
               </div>
               <div class="flex-row">
-              <div class="flex-column"> 
-                <p class = 'text'>
-                Penn, E.; Horowitz, L.W.; Naik, V. (2017) <i>Evaluation of GFDL-AM4 simulations of nitrogen oxides with
-OMI satellite observations.</i> American Geophysical Union Fall Meeting 2017. New Orleans, LA. (poster)
-                </p>
-                <p class = "text">
-                Penn, E. Horowitz, L.W.; Naik, V., Holloway, T. (2017) <i>Evaluation of GFDL-AM4 simulations of
-nitrogen oxides with OMI satellite observations.</i> HAQAST3 Meeting (Health and Air Quality
-Applied Sciences Team). Columbia University, New York, NY (<a href='https://haqast.org/wp-content/uploads/sites/91/2017/12/Penn.pdf'>poster</a>) 
-                </p>
+                <div class="flex-column"> 
+                  <p class='text'>
+                    Penn, E.; Horowitz, L.W.; Naik, V. (2017) <i>Evaluation of GFDL-AM4 simulations of nitrogen oxides with OMI satellite observations.</i> American Geophysical Union Fall Meeting 2017. New Orleans, LA. (poster)
+                  </p>
+                  <p class="text">
+                    Penn, E. Horowitz, L.W.; Naik, V., Holloway, T. (2017) <i>Evaluation of GFDL-AM4 simulations of nitrogen oxides with OMI satellite observations.</i> HAQAST3 Meeting (Health and Air Quality Applied Sciences Team). Columbia University, New York, NY (<a href='https://haqast.org/wp-content/uploads/sites/91/2017/12/Penn.pdf'>poster</a>) 
+                  </p>
+                </div>
               </div>
-            </div>
-  <!-- ...end Hollings -->
- <!-- SULI Wind Project -->
-            <div class="flex-row">
+            </div> <div class="flex-row">
               <div class="flex-row full-width"> 
                 <h3>Predicting wind plant power production</h3>
               </div>
               <div class="flex-row">
-              <div class="flex-column"> 
-<!--                <p class = "text">
-                Wind farm operators need to predict their power production 24 hours in advance so that they can submit accurate predictions to the grid operators. These predictions are imperfect, and the wind industry loses over $300 million each year to inaccurate power forecasts. Wind turbine power production depends in part on the amount of wind shear and turbulence in the surrounding atmosphere. However, these effects are not well understood and can be highly dependent on local conditions. We used a random forest model to incorporate shear and turbulence, as well as local information like altitude, to predict power production at a wind farm. We found that the new model, which incorporated more localized atmospheric information, outperformed the standard industry wind curve.  
-                </p> -->
-                <p class = "text"> 
-                Penn, E. and Newman, J. <i>A New Toolbox for Operational Wind Data.</i> (2017) Presentation. American Meteorological Society Annual Meeting 2017. Seattle, WA. (<a href='https://ams.confex.com/ams/97Annual/videogateway.cgi/id/37671?recordingid=37671&uniqueid=Paper315015&entry_password=386098'>presentation</a>)
-                </p>
-              </div>
-<!--              <div class="flex-item flex-column">
-                <img class="image max-width-300" src="img/wind_field.jpg">
-                <p class="image-caption max-width-400">Image Caption</p>
-              </div>  
-              </div> -->
-            </div>
-  <!-- ...end SULI -->
-
-          </div>
+                <div class="flex-column"> 
+<p class="text"> 
+                    Penn, E. and Newman, J. <i>A New Toolbox for Operational Wind Data.</i> (2017) Presentation. American Meteorological Society Annual Meeting 2017. Seattle, WA. (<a href='https://ams.confex.com/ams/97Annual/videogateway.cgi/id/37671?recordingid=37671&uniqueid=Paper315015&entry_password=386098'>presentation</a>)
+                  </p>
+                </div>
+</div> </div> </div>
         </div>
-<!-- ...END PAST PROJECTS -->
-
-            
-          </div>
         </div>
-        
-      </div>
     </div>
   </div>
 </body>
